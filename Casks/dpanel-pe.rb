@@ -2,8 +2,8 @@ cask "dpanel-pe" do
   arch arm: "arm64", intel: "amd64"
 
   version "1.11.1"
-  sha256 arm:   "fa518927bfc6164f5578e485294fdeb93c9c26b18498c6d27c80bd60eff8885e",
-         intel: "81c0e5ccd6ada4323aba8f2a302bf69676732a5a0de5d6b1effd483b9098e0e2"
+  sha256 arm:   "2bac573fddf8b1f5cd94977a164e2e1666a04815c14c6720f91335a994a2b270",
+         intel: "43105648e5f55f7243ea79ed85f5aca171147e63a514281f305525324587c241"
 
   url "https://github.com/donknap/dpanel/releases/download/v#{version}/dpanel-desktop-pe-darwin-#{arch}.app.zip"
   name "DPanelDesktop PE"
