@@ -20,4 +20,8 @@ The desktop app includes the DPanel server. Its settings and server data are
 stored under `~/.dpanel`; the server data directory is `~/.dpanel/dpanel`.
 The default server port is 8086.
 
+The cask version uses `server version,desktop revision` (for example,
+`1.11.1,2`). Increment the desktop revision whenever a release archive changes,
+including GUI-only fixes. The download URL uses the server version.
+
 The current releases are unsigned and may be blocked by macOS Gatekeeper.
